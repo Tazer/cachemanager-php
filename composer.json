@@ -5,6 +5,7 @@
         "issues": "https://github.com/Tazer/cachemanager-php/issues",
         "source": "https://github.com/Tazer/cachemanager-php"
     },
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Patrik Potocki",
@@ -12,8 +13,7 @@
         }
     ],
     "require": {
-        "php": ">=7.0",
-        "phpFastCache/phpFastCache": "^5.0",
+        "phpFastCache/phpFastCache": "^6.0",
         "predis/predis": "^1.1"
     },        
     "autoload": {

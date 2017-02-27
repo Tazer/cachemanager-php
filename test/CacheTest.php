@@ -16,7 +16,7 @@ class StupidTest extends \PHPUnit_Framework_TestCase
     public function testCacheIsSayingHello()
     {
            $cache = new Cache();
-            $this->assertEquals($cache->sayHallo(), 'Hallo');
+            $this->assertEquals($cache->sayHallo(), 'Hallo!');
     }
 
 
